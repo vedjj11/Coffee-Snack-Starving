@@ -5,13 +5,21 @@ body{
   .item {
     position: relative;
     background-color: rgb(252, 251, 250);
-    height: 350px;
+    height: 370px;
     width: 330px;
     margin: 10px;
     font-size: 50px;
     padding: 10px;
-    box-shadow: 3px 3px 4px 4px black;
+    /* box-shadow: 3px 3px 4px 4px black; */
     border-radius: 1px 12px 3px 12px;
+    border: double 3px;
+    margin-bottom: 20px;
+  }
+  .item:hover{
+    height: 390px;
+    width: 350px;
+    box-shadow: 1px 2px 2px 3px purple;
+    border: none;
   }
   .container {
     display: flex;
@@ -28,9 +36,18 @@ body{
     border-radius: 5px;
     border-style:double;
   }
+  .img1:hover{
+    border:none;
+    box-shadow: 5px 5px 10px purple;
+    height: 220px;
+    width: 220px;
+    left: 75px;
+  }
   .text1{
     position: absolute;
-    font-size: 30px;
+    top: 220px;
+    left: 105px;
+    font-size: 24px;
     font-family: cursive;
     text-align: center;
     font:bold;
@@ -39,31 +56,75 @@ body{
 .text2{
     position: absolute;
     font-family: cursive;
-    font-size: 18px;
+    font-size: 25px;
+    top: 260px;
+    left: 80px;
+    color: rgb(5, 5, 5);
 }
   .text3{
     font-family: cursive;
+    background-color: white;
     position: absolute;
-    font-size: 30px;
-    font-family: initial;
-    color: rgb(253, 253, 252);
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(5, 5, 5);
     text-align: center;
-   
-    margin-bottom: 15px;
+   top: 330px;
+   left: 115px;
+   border-radius: 10px 0 10px 0;
+   border: double 3px;
 
 
+  }
+  .text3:hover{
+border-radius: 0 10px 0 10px;
+border: none;
+background-color: rgb(240, 118, 179);
   }
   .heading{
     text-align: center;
-    color:brown;
+    font-size: 30px;
+    color:rgb(14, 13, 13);
+    font-family: cursive;
+    text-shadow: 2px 2px blue;
+  }
+  .heading1{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(14, 13, 13);
+    font-family: cursive;
+    text-shadow: 3px 3px blue;
+    font-weight: 500px;
   }
 
+  .box
+{
+background-color: black;
+height: 460px;
+text-align: center;
+color:white;
+font-size: 30px;
+margin-top: 2px;
+margin-bottom:10px;
+margin-left:0px;
+margin-right:1px;
+padding-top: 2px;
+padding-bottom: 10px;
+}
+ 
+.box img{
+height: 50px;
+background-color:transparent;
+width:50px;
+padding:10px;
+margin:10px;
+}
   
-  #button{
+  /* #button{
     border-radius: 0px 15px 0px 15px;
     background-color: rgb(206, 221, 215);
   }
   #button:hover{
     border-radius: 5px 20px 5px 20px;
     background-color: rgb(244, 208, 245);
-  }
+  } */
