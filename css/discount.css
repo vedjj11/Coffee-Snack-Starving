@@ -1,0 +1,36 @@
+.THOUGHT {
+    MARGIN:20PX;
+  }
+  .image{
+    margin-left:20px;
+    margin-bottom:20px;
+    border-radius: 20px;
+    align-items: center;
+  
+  }
+  .image:hover{
+    background-color: aquamarine;
+      border-radius:15px;
+      box-shadow: 2px 2px 2px 2px;
+  }
+  #btn{
+    height: 55px;
+    width:150px;
+    column-gap:30px;
+    border-radius: 10px;
+    color: rgb(21, 21, 88);
+    font-size: 20px;
+  }
+  
+  .box{
+    width: auto;
+    border: 2px;
+    text-align: center;
+  }
+    #btn:hover{
+      background-color: aquamarine;
+      border-radius:15px;
+      box-shadow: 1px 1px 1px 1px;
+      height: 55px;
+    width:140px;
+    }
